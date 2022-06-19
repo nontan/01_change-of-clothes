@@ -1,0 +1,156 @@
+
+main,header,footer {
+
+    text-align: center;
+    margin:auto;
+    font-size: 0.8em;
+}
+
+a {
+    color:#F5BDAA;
+}
+section{
+    text-align: center;
+    margin: 0 auto;
+}
+
+body {
+    margin:0;
+}
+
+
+h1 img {
+    width:200px;
+    margin:20px;
+    margin:0 auto;
+    text-align: ceter;
+
+}
+
+
+button {
+    margin-right:15px;
+}
+
+
+.C8BDD5-button {
+
+    background-color:#C8BDD5;
+    border: 1px #cccccc;
+    border-radius: 3px;
+
+}
+
+.fbeae6-button {
+
+    background-color:#fbeae6;
+    border: 1px #cccccc;
+    border-radius: 3px;
+}
+
+.F5BDAA-button {
+
+    background-color:#F5BDAA;
+    border: 1px #cccccc;
+    border-radius: 3px;
+}
+
+.FFF4A9-button {
+
+    background-color:#FFF4A9;
+    border: 1px #cccccc;
+    border-radius: 3px;
+}
+
+.FFC898-button {
+
+    background-color:#FFC898;
+    border: 1px #cccccc;
+    border-radius: 3px;
+}
+
+.ffffff-button {
+
+    background-color:#ffffff;
+    border: 1px #cccccc;
+    border-radius: 3px;
+}
+
+
+
+#selectcolor-area {
+width:100%;
+margin: 0 auto;
+padding-bottom:10px;
+}
+
+#selectcolor-area input {
+    border:1px solid pink;
+    }
+
+#kisekae-area {
+    border:1px solid pink;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    width:500px;
+}
+
+#kisekae-area img {
+    width: 500px;
+}
+
+#select-img-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width:500px;
+    margin: 0 auto;
+}
+.select-img {
+    border: solid 1px #cccccc;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 20%;
+    margin-right: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+.select-img img {
+    display: none;
+}
+.select-img img:first-child {
+    display: inline-block;
+   * width: 100px;
+    height: 100px;
+}
+.select-img:hover {
+    background-color: #e6e6e6;
+    opacity: 0.6;
+}
+.select-img.selected {
+    background-color: #e6e6e6;
+}
+#kisekae-area img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+#kisekae-area img.base-img {
+    position: relative !important;
+    top: auto;
+    left: auto;
+    transform: none;
+    -webkit-transform: none;
+    -ms-transform: none;
+}
+
+footer {
+    margin-top:20px;
+    margin-bottom:20px;
+}
