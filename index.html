@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+
+<link rel ="stylesheet" href="clothes.css">
+
+<title>きせかえドール</title>
+
+<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="stylesheet" href="/assets/css/print.css" media="print">
+
+<meta name="description" content="きせかえができるサイト">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="きせかえサイト">
+<meta property="og:description" content="きせかえができるサイト">
+<meta property="og:url" content="">
+<meta property="og:image" content="">
+
+<link rel="icon" href="images/favicon.ico">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="clothes.js"></script>
+  <script>
+    <!--
+      jQuery(function($) {
+        // 画像エリアクリックイベント
+        $('.select-img').on('click', function(){
+          $(this).toggleClass('selected');
+          change_img();
+        });
+    
+        // 画像変更処理
+        function change_img(){
+          var s_html = '';
+          var i_z_index = 1;
+          $('.select-img.selected').each(function(index, element){
+              s_html += '<img src="' + $(element).find('img').eq(1).attr('src') + '" style="z-index:' + i_z_index + '">';
+              i_z_index++;
+          });
+          // 要素削除
+          $('#kisekae-area img').each(function(index, element){
+            if(!$(this).hasClass('base-img')){
+              $(this).remove();
+            }
+          });
+          // 要素追加
+          $('#kisekae-area').append(s_html);
+        }
+      });
+    -->
+    </script>
+
+</head>
+
+<body>
+  
+  <header>
+
+    <h1><img src="images/logo.png"></h1>
+  </header>
+<main>
+
+  <seciton>
+
+  <div id="selectcolor-area">
+  <input type="button" value=" "  class="C8BDD5-button" onClick="changeColor('#C8BDD5')">
+  <input type="button" value=" "  class="fbeae6-button" onClick="changeColor('#fbeae6')">
+  <input type="button" value=" "  class="F5BDAA-button" onClick="changeColor('#F5BDAA')">
+  <input type="button" value=" "  class="FFC898-button" onClick="changeColor('#FFC898')">
+  <input type="button" value=" "  class="FFF4A9-button" onClick="changeColor('#FFF4A9')">
+  <input type="button" value=" "  class="ffffff-button" onClick="changeColor('#ffffff')">
+  </div>
+  </section>
+
+  
+<section>
+
+  <div id="kisekae-area">
+    <img class="base-img" src="images/doll.png">
+  </div>
+  
+  <div id="select-img-area">
+    <p class="select-img">
+      <img src="images/maid200.png">
+      <img src="images/maid.png">
+    </p>
+    <p class="select-img">
+      <img src="images/sailor200.png">
+      <img src="images/sailor.png">
+    </p>
+    <p class="select-img">
+      <img src="images/uniform200.png">
+      <img src="images/uniform.png">
+    </p>
+    <p class="select-img">
+      <img src="images/bunny200.png">
+      <img src="images/bunny.png">
+    </p>
+  </div>
+</section>
+
+</main>
+<footer>
+  制作：<a href="https://twitter.com/poyoyon_obake/">たきたて玄米</a>
+</footer>
+</body>
+</html>
