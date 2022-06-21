@@ -15,12 +15,13 @@ section{
 }
 
 body {
-    margin:0;
+    margin:0 auto;
+    width:100%;
 }
 
 
 h1 img {
-    width:200px;
+    width:150px;
     margin:20px;
     margin:0 auto;
     text-align: ceter;
@@ -89,24 +90,25 @@ padding-bottom:10px;
     }
 
 #kisekae-area {
-    border:1px solid pink;
     border-radius: 20px;
     text-align: center;
     position: relative;
+    min-width:300px;
+    max-width:330px;
     margin: 0 auto;
-    width:500px;
 }
 
 #kisekae-area img {
-    width: 500px;
+    max-width: 330px;
+    min-width:300px;
 }
 
 #select-img-area {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    width:500px;
-    margin: 0 auto;
+    margin: 10px auto 0 auto;
+    max-width: 330px;
+    min-width:300px;
 }
 .select-img {
     border: solid 1px #cccccc;
@@ -116,15 +118,21 @@ padding-bottom:10px;
     width: 20%;
     margin-right: 5px;
     cursor: pointer;
-    width: 100px;
+    width: 50px;
 }
 .select-img img {
     display: none;
 }
+
+p.select-img {
+    margin:0 auto;
+    text-align: center;
+}
+
 .select-img img:first-child {
     display: inline-block;
-   * width: 100px;
-    height: 100px;
+   * width: 50px;
+    height: 50px;
 }
 .select-img:hover {
     background-color: #e6e6e6;
